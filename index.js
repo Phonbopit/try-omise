@@ -15,7 +15,7 @@ server.connection({
   port: 8900
 });
 
-server.route(require('./customers/customer.route'));
+server.route(require('./lib/routes'));
 
 server.start(err => {
   console.log(`Server running at ${server.info.uri}`);
