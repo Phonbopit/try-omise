@@ -2,6 +2,7 @@
   "name": "try-omise",
   "version": "1.0.0",
   "dependencies": {
+    "hapi": "^13.0.0",
     "omise": "^0.4.1"
   }
 }
