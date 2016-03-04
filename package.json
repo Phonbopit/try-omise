@@ -1,6 +1,10 @@
 {
   "name": "try-omise",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "hapi": "^13.0.0",
     "omise": "^0.4.1"
