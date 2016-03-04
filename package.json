@@ -6,7 +6,9 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "dotenv": "^2.0.0",
     "hapi": "^13.0.0",
+    "joi": "^8.0.4",
     "omise": "^0.4.1"
   }
 }
